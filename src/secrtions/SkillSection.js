@@ -9,7 +9,7 @@ class SkillSection extends Component {
     return (
       <Fullpage className="third">
         <h3>{data.sections[1].title}</h3>
-        <div className="cards-wrapper">
+        <div className="card-wrapper">
           {data.sections[1].items.map(eachSkill => {
             return (
               <SkillCard skill={eachSkill}/>               
