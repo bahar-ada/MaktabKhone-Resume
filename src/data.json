@@ -1,0 +1,59 @@
+{
+  "title": "Hello I am Bahar!",
+  "subtitle": "Front-End Dev| Open-Source Enthusiast",
+  "links": {
+    "github": "https://github.com/bahar-ada",
+    "linkedIn": "https://www.linkedin.com/in/bahar-adamiat"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "type": "p",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras semper auctor neque vitae tempus. Massa eget egestas purus viverra accumsan. Viverra vitae congue eu consequat ac felis donec et odio. Venenatis urna cursus eget nunc scelerisque. Cursus euismod quis viverra nibh cras pulvinar mattis. Ultricies mi quis hendrerit dolor. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Amet aliquam id diam maecenas ultricies mi eget mauris. A diam sollicitudin tempor id eu nisl nunc. Risus nullam eget felis eget nunc. Nibh nisl condimentum id venenatis a condimentum vitae sapien. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis. Nunc sed blandit libero volutpat. Adipiscing tristique risus nec feugiat in fermentum posuere urna nec. Porttitor rhoncus dolor purus non enim. Risus viverra adipiscing at in tellus integer."
+        }
+
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "/images/react2.png ",
+            "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/javascript (1).png",
+            "title": "JavaScript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/css (1).png",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "images/java (1).png",
+            "title": "JAVA"
+          }
+        }
+
+      ]
+    }
+   
+  ],
+  "icons":{
+    "down":"images/downward.png"
+  }
+
+}
