@@ -8,9 +8,12 @@ import { Link, Element } from "react-scroll";
 import "./TitlesAndIcons.css";
 
 class TitlesAndIcons extends Component {
-  state = {
-    color: "white"
+  constructor(props) {
+    super(props);    
+    this.state = { color: "white"};
+     
   };
+
 
   changeColor = () => {
     this.setState({
@@ -19,8 +22,8 @@ class TitlesAndIcons extends Component {
   };
   render() {
     return (
-      <div>
-        <Fullpage className="first">
+      <div >
+        <Fullpage className="first+ {this.props.style}">
           <h1
             className="title"
             style={{ color: this.state.color }}
@@ -51,7 +54,7 @@ class TitlesAndIcons extends Component {
           duration={500}
           onSetActive={this.handleSetActive}
         >
-        <DownIcon icon={data.icons.down} onClick={() => {}} />
+        <DownIcon icon={data.icons.down}  />
         </Link>
         <Element name="about" className="element"></Element>
       </div>

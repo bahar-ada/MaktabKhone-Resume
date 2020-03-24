@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact } from '@fortawesome/free-brands-svg-icons'
-import { faJsSquare } from '@fortawesome/free-brands-svg-icons'
-import { faCss3Alt } from '@fortawesome/free-brands-svg-icons'
-import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
+
 
 import "./SkillCard.css";
 
